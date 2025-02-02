@@ -30,6 +30,7 @@ public class Main {
                     break;
                 case "/":
                     output = String.valueOf(Integer.parseInt(arr[0]) / Integer.parseInt(arr[2]));
+                    break;
                 }
         }catch (Exception e){
             output = "throw Exception";
