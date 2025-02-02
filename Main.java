@@ -38,7 +38,7 @@ public class Main {
         return output;
     }
 
-    static void check(int num){
+    public static void check(int num){
         if(num < 1 || num > 10){throw new IllegalArgumentException();}
     }
 }
